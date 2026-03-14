@@ -229,5 +229,6 @@ Built for **GDG Jaipur Hackathon**
 Team Members:
 
 * Tanmay Baranwal
-* Shravani Jadhavo judges**.
-```
+* Shravani Jadhav
+
+  
