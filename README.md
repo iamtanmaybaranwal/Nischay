@@ -1,7 +1,7 @@
 # CIVIS – Real-Time AI Defense Against Digital Manipulation
 
 🚀 **Live Demo:**  
-https://nischay-gdgjp.netlify.app
+https://nischay-gdgjp.netlify.app  
 
 CIVIS is an AI-powered system that detects **psychological manipulation in digital content before misinformation spreads.**
 
@@ -38,9 +38,9 @@ By the time fact-checkers verify the information, **the narrative may already ha
 
 CIVIS introduces a **real-time AI system that detects manipulation signals in digital content.**
 
-The platform analyzes **multiple types of input**:
+The platform supports **multi-modal input**, allowing analysis of:
 
-- Text content
+- Text
 - Voice input
 - Images / screenshots
 
@@ -53,7 +53,7 @@ This helps users **pause and critically evaluate information before believing or
 # Key Features
 
 ### Multi-Modal Content Analysis
-Analyze **text, voice, and images** for manipulation signals.
+Analyze **text, voice, and images** to detect manipulation signals.
 
 ### Real-Time Manipulation Detection
 Detect psychological manipulation patterns instantly.
@@ -62,28 +62,26 @@ Detect psychological manipulation patterns instantly.
 Identify fear, urgency, outrage, and identity-based persuasion tactics.
 
 ### Explainable AI
-Provides reasoning for why content was flagged.
+Provide reasoning for why content was flagged.
 
 ### Manipulation Risk Score
-Generates a risk score indicating how strongly content attempts to influence behavior.
+Generate a risk score indicating how strongly content attempts to influence behavior.
 
 ### Scalable Architecture
-Designed for browser extensions, media tools, and platform APIs.
+Designed for browser extensions, media tools, and platform integrations.
 
 ---
 
 # APIs & Services Used
 
-CIVIS integrates several powerful APIs:
-
 ### Groq API
 Used for **high-speed LLM inference** and AI-based content analysis.
 
 ### Serper API
-Used for **real-time web search results** to verify claims and gather context.
+Used for **real-time web search** to gather context and verify claims.
 
 ### NewsAPI
-Used to fetch **relevant news sources** and check credibility signals.
+Used to fetch **relevant news sources** and credibility signals.
 
 ---
 
@@ -108,6 +106,8 @@ Used to fetch **relevant news sources** and check credibility signals.
 
 # Project Structure
 
+```
+
 backend
 │
 ├── civisAnalyzer.js
@@ -115,19 +115,19 @@ backend
 ├── server.js
 ├── package.json
 │
-
 gdg-jp
 │
 ├── public
 ├── src
-│ ├── assets
-│ ├── components
-│ ├── App.jsx
-│ ├── main.jsx
+│   ├── assets
+│   ├── components
+│   ├── App.jsx
+│   ├── main.jsx
 │
 ├── index.html
 ├── vite.config.js
 
+````
 
 ---
 
@@ -136,92 +136,98 @@ gdg-jp
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/civis.git
+git clone https://github.com/your-username/civis.git
 cd civis
-
+````
 
 ---
 
-# Running the Project Locally
+## 2. Setup Backend
 
-## 1. Clone the Repository
+Navigate to backend folder:
 
 ```bash
-git clone https://github.com/your-repo/civis.git
-cd civis
-
-2. Setup Backend
-
-Navigate to the backend folder:
-
 cd backend
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
-Create a .env file and add your API keys:
+Create a `.env` file and add your API keys:
 
+```
 GROQ_API_KEY=your_groq_api_key
 SERPER_API_KEY=your_serper_api_key
 NEWS_API_KEY=your_news_api_key
+```
 
 Start the backend server:
 
+```bash
 node server.js
-3. Setup Frontend
+```
 
-Open a new terminal and navigate to frontend:
+---
 
+## 3. Setup Frontend
+
+Open a new terminal and run:
+
+```bash
 cd gdg-jp
-
-Install dependencies:
-
 npm install
-
-Start the development server:
-
 npm run dev
+```
 
-The app will run locally on:
+The app will run locally at:
 
+```
 http://localhost:5173
-Example Use Case
+```
+
+---
+
+# Example Use Case
 
 Example viral claim:
 
-“Burj Khalifa attacked by drones.”
+> “Burj Khalifa attacked by drones.”
 
-CIVIS analyzes the message and detects:
+CIVIS analyzes the content and detects:
 
-Fear trigger
-
-Urgency framing
-
-Geopolitical narrative
+* Fear trigger
+* Urgency framing
+* Geopolitical narrative
 
 Result:
 
-High Manipulation Risk Score
+**High Manipulation Risk Score**
 
-This demonstrates how CIVIS can warn users before misinformation spreads.
+This demonstrates how CIVIS can warn users **before misinformation spreads.**
 
-Deployment Vision
+---
+
+# Deployment Vision
 
 CIVIS can be deployed through:
 
-Browser extension for real-time detection
+* Browser extensions for real-time content analysis
+* Platform APIs for social media moderation
+* Tools for journalists and fact-checkers
 
-Platform API integration for social media moderation
+Our goal is to create an **AI-powered intelligence layer for the digital information ecosystem.**
 
-Tools for journalists and fact-checkers
+---
 
-Our goal is to build an AI-powered intelligence layer for the digital information ecosystem.
+# Team Nischay
 
-Team Nischay
-
-Built for GDG Jaipur Hackathon
+Built for **GDG Jaipur Hackathon**
 
 Team Members:
-- Tanmay Baranwal
-- Shravani Jadhav
+
+* Tanmay Baranwal
+* Shravani Jadhavo judges**.
+```
